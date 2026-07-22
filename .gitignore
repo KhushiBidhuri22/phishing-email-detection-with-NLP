@@ -1,0 +1,21 @@
+# Ignore datasets
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+*.csv
+model.pkl
+vectorizer.pkl
+.ipynb_checkpoints/
+__pycache__/
+venv/
+.venv/
