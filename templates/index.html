@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Detector</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1> Phishing Email Detector</h1>
+
+    <p class="subtitle">
+        AI-powered NLP system to detect phishing emails
+    </p>
+
+
+    <form action="/predict" method="POST">
+
+        <textarea 
+        name="email"
+        placeholder="Paste email content here..."
+        required></textarea>
+
+
+        <button type="submit">
+            Analyze Email
+        </button>
+
+    </form>
+
+
+    {% if prediction %}
+
+    <div class="result">
+
+        <h2>Result:</h2>
+
+        <p>{{ prediction }}</p>
+
+    </div>
+
+    {% endif %}
+
+
+</div>
+
+
+</body>
+
+</html>
