@@ -110,55 +110,7 @@ Phishing-Email-Detection/
 └── data/
 ```
 
----
 
-## ▶️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/KhushiBidhuri22/phishing-email-detection-with-NLP.git
-```
-
-Move into the project directory
-
-```bash
-cd phishing-email-detection-with-NLP
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the notebook
-
-```bash
-jupyter notebook
-```
-
----
-
-##  Requirements
-
-```
-pandas
-numpy
-matplotlib
-scikit-learn
-nltk
-joblib
-jupyter
-```
-
-Or install everything using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ##  Results
 
